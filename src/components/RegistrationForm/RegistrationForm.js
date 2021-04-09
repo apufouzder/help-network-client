@@ -16,7 +16,7 @@ const RegistrationForm = () => {
 
     const handleSubmitForm = (event) => {
         event.preventDefault()
-        fetch('http://localhost:3010/form-submit', {
+        fetch('https://still-basin-71789.herokuapp.com/form-submit', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(form)

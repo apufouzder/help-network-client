@@ -9,7 +9,7 @@ const AddEvent = () => {
     const history = useHistory()
 
     const addEventHandler = () => {
-        fetch('http://localhost:3010/add-event', {
+        fetch('https://still-basin-71789.herokuapp.com/add-event', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(myEvent)
@@ -34,7 +34,7 @@ const AddEvent = () => {
     //         imageURL: data.imageURL
     //     };
 
-    //     const url = `http://localhost:3010/addEvent`;
+    //     const url = `https://still-basin-71789.herokuapp.com/addEvent`;
     //     fetch(url, {
     //         method: 'POST',
     //         headers: { 'Content-Type': 'application/json' },

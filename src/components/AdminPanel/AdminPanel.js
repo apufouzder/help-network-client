@@ -47,7 +47,7 @@ const AdminPanel = () => {
     const classes = useStyles();
     // console.log(allEvents);
     useEffect(() => {
-        fetch('http://localhost:3010/registered-event')
+        fetch('https://still-basin-71789.herokuapp.com/registered-event')
             .then(res => res.json())
             .then(data => {
                 setAllEvents(data)
@@ -55,7 +55,7 @@ const AdminPanel = () => {
     }, [])
 
     const handleDeleteEvent = (id) => {
-        fetch(`http://localhost:3010/cancelEvent/${id}`, {
+        fetch(`https://still-basin-71789.herokuapp.com/cancelEvent/${id}`, {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
 
