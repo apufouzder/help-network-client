@@ -1,7 +1,14 @@
 # Welcome! Help Network
 
+#### live site: (https://help-network.web.app/)
 
-## Using Technology
+### Overview
+
+#### It's a single-page application. Admin can add any event. And he can see all the events.user register an event and see all registered event details.
+
+#### firebase auth login with google
+
+### Using Technology
 
 #### MongoDB
 #### Express.js
